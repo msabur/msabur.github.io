@@ -1,0 +1,18 @@
+# Site settings
+title:              Maahee
+email:              maahee@knights.ucf.edu
+description:        "A website"
+url:                "http://localhost:4000"
+
+# File structure settings
+image_path:         public/images
+
+# Build settings
+markdown:           kramdown
+permalink:          pretty
+
+# Collection definitions and settings
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
