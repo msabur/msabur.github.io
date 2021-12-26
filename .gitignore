@@ -1,4 +1,4 @@
 _site
 .jekyll-cache
-docs/*
-!docs/.gitkeep
+.sass-cache
+style.css.map
