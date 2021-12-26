@@ -3,8 +3,6 @@ title:              Maahee
 email:              maahee@knights.ucf.edu
 description:        "A website"
 url:                "https://msabur.github.io"
-baseurl:            /msabur.github.io
-destination:        ./docs
 
 # File structure settings
 image_path:         public/images
