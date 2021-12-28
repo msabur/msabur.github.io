@@ -3,6 +3,7 @@ title:              Maahee
 email:              maahee@knights.ucf.edu
 description:        "A website"
 url:                "https://msabur.github.io"
+baseurl:            ""
 
 # File structure settings
 image_path:         public/images
@@ -14,8 +15,8 @@ permalink:          pretty
 # Collection definitions and settings
 collections:
   projects:
-    output: true
-    permalink: /projects/:path/
+    output:         true
+    permalink:      /projects/:path/
 
 # Navigation list to manage links in the navbar
 navigation:
