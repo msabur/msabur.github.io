@@ -1,20 +1,24 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <div class="container-fluid">
+  <div class="container">
 	  <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-		<li class="nav-item">
-			<a class="nav-link" href="{{ site.baseurl }}/">Portfolio</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="{{ site.baseurl }}/about/">About</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="{{ site.baseurl }}/contact/">Contact</a>
-		</li>
+		{% for item in site.navigation %}
+			{% assign class = nil %}
+			{% if page.url == item.url %}
+				{% assign class = 'active' %}
+			{% elsif item.title == 'Portfolio' and page.url contains '/projects/' %}
+				{% assign class = 'active' %}
+			{% endif %}
+			<li class="nav-item">
+				<a class="nav-link {{ class }}" href="{{ site.baseurl }}{{ item.url }}">
+					{{ item.title }}
+				</a>
+			</li>
+		{% endfor %}
       </ul>
     </div>
   </div>

@@ -16,3 +16,12 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+# Navigation list to manage links in the navbar
+navigation:
+    - title: Portfolio
+      url: /
+    - title: About
+      url: /about/
+    - title: Contact
+      url: /contact/
