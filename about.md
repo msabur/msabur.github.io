@@ -1,8 +1,6 @@
 ---
-layout: about
-path: /about
+layout: basic
 title: About
-url: index.html
 ---
 
 Welcome to my website! My name is Maahee and I'm studying computer science at the University of Central Florida. I'm interested in developing software that works well.

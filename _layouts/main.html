@@ -3,14 +3,16 @@
 	{% include head.html %}
 
 	<body class="d-flex flex-column h-100">
-		{% include header.html %}
+		{% include navbar.html %}
 
-		<div class="container" style="padding-top: 60px;">
-			{{ content }}
-		</div>
+		<main>
+			<div class="container" style="padding-top: 60px;">
+				{{ content }}
+			</div>
+		</main>
 
 		{% include footer.html %}
-		{% include foot.html %}
+		{% include scripts.html %}
 	</body>
 
 </html>

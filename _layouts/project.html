@@ -1,21 +1,16 @@
 ---
 layout: main
 ---
-<main class="project">
-	<section id="project-content">
-		<div class="row">
-			<div class="col-sm-auto">
-				<h1 id="project-title">{{ page.title }}</h1>
-				<h2 id="project-date">{{ page.date| date_to_string:"ordinal" }}</h2>
-			</div>
-			<div class="col">
-				<img id="project-image" src="{{ site.baseurl }}/{{ site.image_path }}/{{ page.image }}" class="d-block float-end">
-			</div>
-		</div>
-		<hr>
+<div class="row">
+	<div class="col-sm-auto">
+		<h1 id="project-title">{{ page.title }}</h1>
+		<h2 id="project-date">{{ page.date| date_to_string:"ordinal" }}</h2>
+	</div>
+	<div class="col">
+		<img id="project-image" src="{{ site.baseurl }}/{{ site.image_path }}/{{ page.image }}" class="d-block float-end">
+	</div>
+</div>
+<hr>
 
-		{{ content }}
+{{ content }}
 
-	</section>
-
-</main>

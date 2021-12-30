@@ -1,6 +1,5 @@
 ---
 layout: project
-title: Maintenance App
 date: November 29, 2021
 image: maintenance-logo.png
 ---

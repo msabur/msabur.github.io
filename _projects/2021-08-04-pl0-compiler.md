@@ -1,7 +1,6 @@
 ---
 layout: project
 title: PL/0 Compiler
-date: August 4, 2021
 image: roundabout.jpg
 ---
 
