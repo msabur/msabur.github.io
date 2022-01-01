@@ -18,7 +18,7 @@ collections:
     output:         true
     permalink:      /projects/:path/
 
-# Navigation list to manage links in the navbar
+# Navigation list for links in the navbar
 navigation:
     - title: Portfolio
       url: /
