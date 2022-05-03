@@ -10,7 +10,7 @@
 			{% assign class = nil %}
 			{% if page.url == item.url %}
 				{% assign class = 'active' %}
-			{% elsif item.title == 'Portfolio' and page.url contains '/projects/' %}
+			{% elsif item.title == 'Projects' and page.url contains '/projects/' %}
 				{% assign class = 'active' %}
 			{% endif %}
 			<li class="nav-item">
