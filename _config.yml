@@ -20,7 +20,7 @@ collections:
 
 # Navigation list for links in the navbar
 navigation:
-    - title: Portfolio
+    - title: Projects
       url: /
     - title: About
       url: /about/
