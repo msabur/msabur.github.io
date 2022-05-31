@@ -2,6 +2,7 @@
 layout: project
 date: November 29, 2021
 image: maintenance-logo.png
+image_alt: An icon showing a house and a hammer
 ---
 
 ## Overview

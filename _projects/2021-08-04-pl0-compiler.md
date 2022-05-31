@@ -2,6 +2,7 @@
 layout: project
 title: PL/0 Compiler
 image: roundabout.jpg
+image_alt: A picture of a roundabout
 ---
 
 ## Overview
