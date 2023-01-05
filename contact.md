@@ -3,7 +3,5 @@ layout: basic
 title: Contact
 ---
 
-You can contact me through email.
-
-Email: {{ site.email }}
+You can contact me through email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
 
