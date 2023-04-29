@@ -11,7 +11,7 @@ A simple flashcard viewer. A user can make a deck of flashcards and open it in t
 
 I made this to help me study vocabulary. 
 
-![screenshot](https://github.com/msabur/simpleFlashcards/blob/master/screenshots/main.png)
+![screenshot](https://raw.githubusercontent.com/msabur/simpleFlashcards/master/screenshots/main.png)
 
 ## Features
 
